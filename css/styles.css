@@ -1,9 +1,37 @@
-.top-header{
-    position: fixed;
-    margin-top: 0;
+#top-section{
+    width: 100%;
+    height: 532px;
+}
+
+.top-section-content{
+    width: 100%;
+    height: 532px;
+    margin-top: -1px;
     margin-left: 0;
     margin-right: 0;
+}
+
+/* #background-cont{
     width: 100%;
+    height: 532px;
+} */
+
+/* .background-img{
+    width: 100%;
+    height: 532px;
+} */
+
+.img-divided{
+    width: 100%;
+    height: 532px;
+}
+
+.top-header{
+    position: fixed;
+    margin-top: -1px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 97%;
     height: 86px;
     background-color: #f6f8fa;
     display: flex;
@@ -22,12 +50,14 @@
 .heading-options{
     display: flex;
     align-items: center;
-    width: 700px;
+    justify-content: space-between;
+    width: 45%;
     height: 57px;
     padding-top: 6px;
     padding-left: 14px;
     padding-bottom: 6px;
     padding-right: 14px;
+    border-right: 10px;
     gap: 30px;
 }
 
@@ -41,16 +71,15 @@ nav li{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 311px;
-    height: 17px;
-    background-color: aqua;
-    gap: 20px;
+    width: 66%;
+    height: 25px;
+    gap: 30px;
 }
 
 .nav-cont{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #677788;
@@ -64,8 +93,65 @@ nav li{
     border-radius: 30px;
     background-color: #2476FF;
     border: #2476FF;
-    padding: 15px 25px;
+    padding: 15px 35px;
     gap: 20px;
     color: white;
 
+}
+.hero-section{
+    display: flex;
+    position: absolute;
+    top: 106px;
+    display: flex;
+    width: 100%;
+    height: 446px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aqua;
+    opacity: .2;
+}
+.left-part{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 406px;
+    background-color: burlywood;
+    gap: 20px;
+}
+.right-part{
+    width: 47%;
+    height: 406px;
+    background-color: coral;
+}
+.title{
+    position: relative;
+    top: 50px;
+    width: 66%;
+    height: 225px;
+    gap: 11px;
+    background-color: chartreuse;
+}
+
+.title-large{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #677788;
+}
+
+
+.actions{
+    position: relative;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    gap: 24px;
+    background-color: darkviolet;
+    padding-left: 15px;
 }
