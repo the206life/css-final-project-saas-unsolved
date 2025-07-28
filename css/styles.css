@@ -32,6 +32,7 @@
     margin-left: 0;
     margin-right: 0;
     width: 97%;
+    max-width: 1250px;
     height: 86px;
     background-color: #f6f8fa;
     display: flex;
@@ -108,50 +109,183 @@ nav li{
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: aqua;
-    opacity: .2;
-}
+}    
 .left-part{
     display: flex;
     flex-direction: column;
     width: 47%;
     height: 406px;
-    background-color: burlywood;
     gap: 20px;
 }
 .right-part{
     width: 47%;
     height: 406px;
-    background-color: coral;
 }
 .title{
     position: relative;
     top: 50px;
-    width: 66%;
+    width: 334px;
     height: 225px;
     gap: 11px;
-    background-color: chartreuse;
 }
 
 .title-large{
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 .title-small{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 14px;
     color: #677788;
 }
 
 
 .actions{
     position: relative;
-    top: 25px;
+    top: 50px;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 97.7%;
     height: 48px;
     gap: 24px;
-    background-color: darkviolet;
     padding-left: 15px;
+}
+.fa-solid{
+    gap: 10px;
+    margin-right: 8px;
+}
+.play-button{
+    width: 137px;
+    height: 48px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    gap: 8px;
+    background-color: blue;
+    color: white;
+    border: blue;
+}
+
+.asana{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 10px;
+    left: 475px;
+    padding: 16px;
+    background-color: white;
+}
+.asana-pic{
+    width: 48px;
+    height: 48px;
+}
+.calendar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 200px;
+    left: 450px;
+    padding: 16px;
+    background-color: white;
+}
+
+.calendar-pic{
+    width: 48px;
+    height: 48px;
+}
+.weave{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 30px;
+    left: 350px;
+    padding: 16px;
+    background-color: white;
+}
+.weave-pic{
+    width: 48px;
+    height: 48px;
+}
+
+.paypal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 120px;
+    left: 30px;
+    padding: 16px;
+    background-color: white;
+}
+.paypal-pic{
+    width: 48px;
+    height: 48px;
+}
+
+.attlassian{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 360px;
+    left: 220px;
+    padding: 16px;
+    background-color: white;
+}
+.attlassian-pic{
+    width: 48px;
+    height: 48px;
+}
+
+.google-ads{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 220px;
+    left: 160px;
+    padding: 16px;
+    background-color: white;
+}
+.google-ads-pic{
+    width: 48px;
+    height: 48px;
+}
+
+.google{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 525px;
+    left: 60px;
+    padding: 16px;
+    background-color: white;
+}
+.google-pic{
+    width: 48px;
+    height: 48px;
 }
