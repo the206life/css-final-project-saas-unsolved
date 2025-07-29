@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #top-section{
     width: 100%;
     height: 532px;
@@ -31,7 +37,7 @@
     margin-top: -1px;
     margin-left: 0;
     margin-right: 0;
-    width: 97%;
+    width: 100%;
     height: 86px;
     background-color: #f6f8fa;
     display: flex;
@@ -61,11 +67,11 @@
     gap: 30px;
 }
 
-nav li{
+/* nav li{
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} */
 
 .nav-list{
     display: flex;
@@ -74,10 +80,13 @@ nav li{
     width: 66%;
     height: 25px;
     gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-cont{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
@@ -130,10 +139,10 @@ nav li{
 
 .title-large{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .title-small{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     color: #677788;
 }
@@ -185,8 +194,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     bottom: 50px;
     right: 145px;
@@ -203,8 +212,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     bottom: 180px;
     right: 260px;
@@ -221,8 +230,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     bottom: 185px;
     right: 500px;
@@ -239,8 +248,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     top: 50px;
     right: 325px;
@@ -257,8 +266,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     bottom: 100px;
     right: 400px;
@@ -266,8 +275,8 @@ nav li{
     background-color: white;
 }
 .google-ads-pic{
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
 }
 
 .google{
@@ -275,8 +284,8 @@ nav li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     top: 50px;
     right: 480px;
@@ -284,6 +293,69 @@ nav li{
     background-color: white;
 }
 .google-pic{
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
+}
+
+#why-front-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 354px;
+    gap: 40px;
+}
+
+.why-front-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+    height: 89px;
+    padding-right: 60px;
+    padding-left: 60px;
+    gap: 10px;
+
+}
+.why-large{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.why.small{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bullets-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 145px;
+
+}
+.bullet{
+    width: 22%;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    width: 100%;
+    height: 50px;
+}
+.front-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 4px;
 }
