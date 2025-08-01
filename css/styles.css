@@ -168,9 +168,9 @@
     border-radius: 30px;
     padding: 15px 25px;
     gap: 8px;
-    background-color: blue;
+    background-color: #2476FF;
     color: white;
-    border: blue;
+    border: #2476FF;
 }
 
 .asana{
@@ -422,6 +422,7 @@
     width: 100%;
     height: 60px;
     gap: 10px;
+    margin-bottom: 70px;
     
 }
 .pricing-title-large{
@@ -456,4 +457,73 @@
     padding: 40px;
     gap: 50px;
     box-shadow: 0px 10px 20px #E2E2E2;
+}
+.plan-header{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    height: 194px;
+    gap: 30px;
+}
+.plan-price{
+    display: flex;
+    align-items: end;
+    width: 40%;
+    height: 61px;
+    gap: 7px;
+}
+.plan-amount{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.plan-term{
+    display: flex;
+    align-items: end;
+    width: 38%;
+    height: 33px;
+    padding-bottom: 9px;
+    gap: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20xpx;
+    font-weight: 500;
+    color: #677788;
+
+}
+.plan-divider{
+    width: 100%;
+    height: 1px;
+    gap: 10px;
+    background-color: #8D8D8D;
+
+}
+.plan-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #677788;
+}
+.plan-footer{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 73px;
+    gap: 10px;
+}
+.plan-button{
+    width: 137px;
+    height: 48px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    gap: 8px;
+    background-color: #2476FF;
+    color: white;
+    border: #2476FF;
+}
+.plan-footer-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #677788;
 }
