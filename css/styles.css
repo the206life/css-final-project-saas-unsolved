@@ -406,3 +406,54 @@
   width: 37%;
   opacity: 0;
 }
+
+#pricing-section{
+    width: 100%;
+    height: 692px;
+    padding-bottom: 120px;
+    gap: 60px;
+    border: 2px blue;
+}
+.pricing-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    gap: 10px;
+    
+}
+.pricing-title-large{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+.pricing-title-small{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #677788;
+}
+
+.plans-feature-list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 452px;
+    padding-right: 30px;
+    padding-left: 30px;
+    gap: 30px;
+}
+.pricing-table{
+    width: 94%;
+    height: 452px;
+    gap: 30px;
+}
+.plan-info{
+    width: 38%;
+    height: 452px;
+    padding: 40px;
+    gap: 50px;
+    box-shadow: 0px 10px 20px #E2E2E2;
+}
