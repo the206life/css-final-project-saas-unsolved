@@ -897,13 +897,13 @@
     width: 94%;
     height: 166px;
     gap: 40px;
-    border: 1px solid black;
 }
 .frame14{
+    display: flex;
+    flex-direction: column;
     width: 26%;
     height: 94px;
     gap: 20px;
-    border: 1px solid black;
 }
 .footer-logo{
     width: 39%;
@@ -911,7 +911,7 @@
 }
 .footer-logo-photo{
     width: 100%;
-    height: 100%;
+    height: 30px;
 }
 .footer-nav{
     width: 100%;
@@ -919,8 +919,130 @@
     gap: 10px;
 }
 .frame15{
+    display: flex;
     width: 69%;
     height: 166px;
     gap: 49px;
-    border: 1px solid black;
+}
+
+.menu-item-one{
+    display: flex;
+    width: 100%;
+    height: 17px;
+    gap: 9px;
+}
+.menu-item-two{
+    display: flex;
+    width: 59%;
+    height: 17px;
+    gap: 9xp;
+}
+.nav-icon{
+    width: 11px;
+    height: 14px;
+    gap: 10px;
+}
+#nav-icon-icon{
+    font-weight: 900;
+    font-size: 14px;
+    color: #677788;
+}
+.nav-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #677788;
+    padding-left: 7px;
+}
+.nav-phone{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2476FF;
+    padding-left: 15px;
+}
+.frame16{
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: 166px;
+    gap: 20px;
+}
+.frame17{
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    height: 139px;
+    gap: 20px;
+}
+.frame18{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    height: 166px;
+    gap: 20px;
+}
+.frame19{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    height: 85px;
+    gap: 20px;
+}
+.frame15-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.frame15-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 125px;
+    gap: 10px;
+    color: #677788;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.we-hire-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 14px;
+    border-radius: 3px;
+    background-color: #2476FF;
+    border: #2476FF;
+    padding: 2px 4px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 7.5px;
+}
+.frame16-menu-item{
+    width: 100%;
+    height: 17px;
+    display: flex;
+    gap: 10px;
+}
+.frame15-blue-text{
+    color: #2476FF;
+}
+.frame19-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 125px;
+    gap: 6px;
+    color: #677788;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.frame19-icon-cont{
+    display: flex;
+    width: 100%;
+    height: 17px;
+    gap: 9px;
 }
