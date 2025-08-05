@@ -94,6 +94,9 @@
     letter-spacing: 0%;
     color: #677788;
 }
+.nav-cont:hover{
+    color: #2476FF;
+}
 .buy-now-button{
     display: flex;
     align-items: center;
@@ -861,15 +864,16 @@
     width: 45%;
     height: 22px;
 }
+
 .frame-bottom-border-one{
-    width: 100%;
+    width: 131px;
     height: 1px;
     border: 1px dashed #677788;
 }
 .frame-bottom-border-two{
-    width: 100%;
+    width: 131px;
     height: 1px;
-    border: 1px dashed #2476FF;
+    border: 1px dashed #677788;
 }
 .ajax1-text{
     width: 100%;
@@ -880,6 +884,10 @@
     line-height: 22px;
     color: #677788;
 }
+.ajax1-text:hover{
+    color: #2476FF;
+}
+
 .ajax2-text{
     width: 100%;
     height: 22px;
@@ -887,6 +895,9 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 22px;
+    color: #677788;
+}
+.ajax2-text:hover{
     color: #2476FF;
 }
 .form-actions{
@@ -985,12 +996,18 @@
     color: #677788;
     padding-left: 7px;
 }
+.nav-text:hover{
+    color: #2476FF;
+}
 .nav-phone{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: #2476FF;
+    color: #677788;
     padding-left: 15px;
+}
+.nav-phone:hover{
+    color: #2476FF;
 }
 .frame16{
     display: flex;
@@ -1057,9 +1074,6 @@
     display: flex;
     gap: 10px;
 }
-.frame15-blue-text{
-    color: #2476FF;
-}
 .frame19-nav{
     display: flex;
     flex-direction: column;
@@ -1076,4 +1090,10 @@
     width: 100%;
     height: 17px;
     gap: 9px;
+}
+.frame15-menu-item:hover{
+    color: #2476FF;
+}
+.frame19-text:hover{
+    color: #2476FF;
 }
