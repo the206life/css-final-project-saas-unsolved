@@ -47,6 +47,7 @@
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
+    z-index: 10;;
 }
 .front-logo{
     height: 46px;
@@ -105,8 +106,13 @@
     padding: 15px 35px;
     gap: 20px;
     color: white;
-
 }
+.buy-now-button:hover{
+    background-color: #FFFFFF;
+    color: #2476FF;
+    border: 2px solid #2476FF;
+}
+
 .hero-section{
     display: flex;
     position: absolute;
@@ -172,6 +178,11 @@
     color: white;
     border: #2476FF;
 }
+.play-button:hover{
+    background-color: #FFFFFF;
+    color: #2476FF;
+    border: 2px solid #2476FF;
+}
 
 .asana{
     position: absolute;
@@ -184,6 +195,7 @@
     top: 50px;
     right: 125px;
     background-color: white;
+    animation: slide-in 1s linear;
 }
 .asana-pic{
     width: 48px;
@@ -201,6 +213,7 @@
     right: 145px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-calendar 1s linear;
 }
 
 .calendar-pic{
@@ -219,6 +232,7 @@
     right: 260px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-weave 1s linear;
 }
 .weave-pic{
     width: 48px;
@@ -237,6 +251,7 @@
     right: 500px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-paypal 1s linear;
 }
 .paypal-pic{
     width: 48px;
@@ -251,10 +266,11 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    top: 50px;
+    bottom: 325px;
     right: 325px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-atlassian 1s linear;
 }
 .attlassian-pic{
     width: 48px;
@@ -273,6 +289,7 @@
     right: 400px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-google-ads 1s linear;
 }
 .google-ads-pic{
     width: 40px;
@@ -291,6 +308,7 @@
     right: 480px;
     padding: 16px;
     background-color: white;
+    animation: slide-in-google 1s linear;
 }
 .google-pic{
     width: 40px;
@@ -456,6 +474,9 @@
     height: 452px;
     padding: 40px;
     gap: 50px;
+    /* box-shadow: 0px 10px 20px #E2E2E2; */
+}
+.plan-info:hover{
     box-shadow: 0px 10px 20px #E2E2E2;
 }
 .plan-header{
@@ -520,6 +541,11 @@
     background-color: #2476FF;
     color: white;
     border: #2476FF;
+}
+.plan-button:hover{
+    background-color: #FFFFFF;
+    color: #2476FF;
+    border: 2px solid #2476FF;
 }
 .plan-footer-text{
     font-family: "Inter", sans-serif;
@@ -880,6 +906,11 @@
     background-color: #2476FF;
     border: 1px solid #2476FF;
     color: #FFFFFF;
+}
+.form-button:hover{
+    background-color: #FFFFFF;
+    color: #2476FF;
+    border: 2px solid #2476FF;
 }
 .footer-cont{
     display: flex;
