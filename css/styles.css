@@ -656,7 +656,6 @@
     justify-content: center;
     width: 47%;
     height: 648px;
-    border: 2px solid black;
     gap: 70px;
     padding-left: 65px;
 
@@ -664,7 +663,6 @@
 .hire-right{
     width: 47%;
     height: 648px;
-    border: 2px solid black;
 }
 .hire-left-top{
     width: 76%;
@@ -804,7 +802,7 @@
     border: 1px solid black;
     padding: 10px;
     gap: 10px;
-    color: #677788;
+    color: black;
 }
 #country-dd{
     width: 47%;
@@ -813,7 +811,7 @@
     border: 1px solid black;
     padding: 10px;
     gap: 10px;
-    color: #677788;
+    color: black;
 }
 #form-textarea{
     width: 100%;

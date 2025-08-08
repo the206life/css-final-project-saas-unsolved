@@ -136,7 +136,7 @@
         padding: 1px;
     }
     .plan-info:hover{
-        display: none;
+        box-shadow: initial;
     }
     .plan-header{
         width: 85%;
@@ -162,6 +162,52 @@
         width: 90%;
         height: 430px;
         margin-top: 50px;
+    }
+    .hire-us-section{
+        height: 984px;
+        flex-direction: column;
+    }
+    .hire-left{
+        width: 90%;
+        height: 240px;
+        gap: 60px;
+        flex-direction: row;
+    }
+    .hire-left-top{
+       width: 55%;
+       height: 180px;
+       gap: 32px;
+    }
+    .hire-us-title{
+        width: 100%;
+        height: 100px;
+        gap: 34px;
+    }
+    .hire-us-top-title{
+        gap: 10px;
+    }
+    .hire-left-bottom{
+        width: 27%;
+        height: 133px;
+        gap: 30px;
+    }
+
+    .hire-right{
+        width: 90%;
+        height: 684px;
+        padding: 30px;
+        gap: 10px;
+    }
+    .footer-cont{
+        width: 90%;
+        height: 501px;    
+    }
+    .footer-frame{
+        width: 100%;
+        height: 381px;
+    }
+    .frame14{
+        width: 35%;
     }
 
 }
