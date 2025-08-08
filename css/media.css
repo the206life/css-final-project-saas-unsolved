@@ -45,7 +45,7 @@
         width: 92%;
         height: 309px;
     }
-    .top-section{
+    #top-section{
         height: 750px;
     }
     .top-section-content{
@@ -53,30 +53,115 @@
     }
     .asana{
         animation: none;
-        position: relative;
-        top: 10px;
-        left: 700px;
+        top: 350px;
+        right: 110px;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
     }
     .calendar{
         animation: none;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
+        bottom: 15px;
     }
     .google{
         animation: none;
+        top: 370px;
+        left: 110px;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
     }
     .weave{
         animation: none;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
+        bottom: 160px;
+        right: 220px;
     }
     .paypal{
         animation: none;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
+        left: 120px;
+        top: 480px;
 
     }
     .attlassian{
         animation: none;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
+        top: 370px;
+        left: 400px;
+
     }
     .google-ads{
         animation: none;
+        box-shadow:  0px 0px 10px 5px #E2E2E2;
+        bottom: 50px;
+        left: 300px;
     }
 
+    .why-front-title{
+        width: 75%;
+    }
+    .why-small{
+        text-align: center;
+    }
+    .why-large{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #pricing-section{
+        height: 1013px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .pricing-title{
+        margin-bottom: 1px;
+    }
+    .plans-feature-list{
+        height: 833px;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .pricing-table{
+        flex-direction: column;
+    }
+    .plan-info{
+        width: 90%;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+    }
+    .plan-info:hover{
+        display: none;
+    }
+    .plan-header{
+        width: 85%;
+        height: 170px;
+        align-items: center;
+
+    }
+    .plan-price{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .plan-term{
+        justify-content: center;
+        align-items: end;
+        height: 100%;
+    }
+    .plan-footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .row-features{
+        width: 90%;
+        height: 430px;
+        margin-top: 50px;
+    }
 
 }
