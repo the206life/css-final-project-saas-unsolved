@@ -171,13 +171,71 @@
         gap: 30px;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
     }
     .pricing-table{
         width: 90%;
         height: 397px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #E2E2E2;
+        margin-top: 40px;
 
+    }
+    .plan-info{
+        width: 75%;
+        height: 194px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px;
+        margin-top: 20px;
+
+    }
+    .plan-info:hover{
+        box-shadow: initial;
+    }
+    .plan-header{
+        width: 75%;
+        height: 194px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-features{
+        width: 90%;
+        height: 844px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-top: 225px;
+    }
+    .features-row-one{
+        width: 100%;
+        height: 426px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .features-row-two{
+        width: 100%;
+        height: 408px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .plan-feature-item{
+        width: 100%;
+        height: 219px;
+        gap: 30px;
     }
 
 }
