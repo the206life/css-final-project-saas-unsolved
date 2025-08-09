@@ -17,6 +17,11 @@
         justify-content: flex-end;
         margin-left: 200px;
     }
+    .heading-options{
+        width: 46px;
+        height: 32px;
+        gap: 30px;
+    }
     .hero-section{
         flex-direction: column;
         justify-content: center;
