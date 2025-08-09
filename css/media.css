@@ -203,6 +203,13 @@
         padding: 30px;
         gap: 10px;
     }
+    .ajax2-text{
+        display: none;
+    }
+    .frame-bottom-border-two{
+        display: none;
+    }
+
     .footer-cont{
         width: 90%;
         height: 501px;    
